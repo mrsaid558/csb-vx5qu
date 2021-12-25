@@ -1,0 +1,176 @@
+/* start navbar */
+
+/* the logo of navbar */
+.navbar-brand {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* the items of navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 15px;
+  text-transform: capitalize;
+}
+
+/* end navbar */
+
+/* start header */
+.row {
+  margin-top: 150px;
+}
+
+.header-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.header-text {
+  width: 90%;
+  font-size: 19px;
+  line-height: 1.7;
+  color: #888;
+}
+
+a.header-link {
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.header-img {
+  background: linear-gradient(
+      rgba(146, 185, 146, 0.3),
+      rgba(145, 226, 145, 0.3)
+    ),
+    url(../images/learn.jpg);
+  height: 550px;
+  background-size: cover;
+}
+/*end header*/
+
+/* start services section */
+
+/* the icons */
+.svg-inline--fa {
+  color: #198754;
+}
+
+.svg-inline--fa:hover {
+  color: #10ac84;
+  transition: 0.2s;
+}
+
+.services-title {
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #198754;
+}
+
+.services-text {
+  color: #777;
+}
+
+.icon-title {
+  color: #000;
+}
+/* end services section */
+
+/* start important fields */
+
+.fields {
+  background-color: #198754;
+  width: 100%;
+  min-height: 600px;
+  padding-bottom: 60px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  opacity: 1;
+}
+
+.card img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.card .btn {
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.card .btn:hover {
+  padding-left: 35px;
+}
+/* end important fields */
+
+/* start about us */
+.about-us {
+  background: linear-gradient(
+      rgba(146, 185, 146, 0.5),
+      rgba(145, 226, 145, 0.3)
+    ),
+    url(../images/about-us.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* the icons of about us section */
+svg:not(:root).svg-inline--fa {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.face:hover {
+  color: #6a89cc;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #0abde3;
+  cursor: pointer;
+}
+
+.insta:hover {
+  color: #fc427b;
+  cursor: pointer;
+}
+
+/* end about us */
+
+/* start contact us */
+
+.contact-us h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us label {
+  font-size: 18px;
+}
+
+.contact-us .btn {
+  padding: 10px 0;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.contact-us .btn:hover {
+  color: #198754;
+  font-weight: bold;
+}
+
+/* end contact us */
